@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ManyToMany/WebContent/esit.jsp&apos; to &apos;edit.jsp&apos;" description="Rename resource &apos;esit.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/esit.jsp" name="edit.jsp" stamp="1625116594038" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="s1" class="com.bean.Student" >
+	<property name="email" value="deeppatel@gmail.com"/>
+</bean>
+<bean id="s2" class="com.bean.Student" parent="s1"]>
+	<property name="id" value="1" />
+	<property name="fname" value="Deep"/>
+	<property name="lname" value="patel"/>
+	
+</bean>
+</beans>
+<!--we can use property tag only when class mention in bean has getter setter..This property can be accessed through getter setter only  -->

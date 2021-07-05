@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+	integrity="undefined" crossorigin="anonymous">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+.center {
+  margin: auto;
+  width: auto;
+  border: 3px solid green;
+  padding: 10px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="btn-group-vertical btn-group-lg center" style="align-content: center;">
+  <a href="student.jsp"><button type="button" class="btn btn-primary">Add Student</button></a>
+  <a href="course.jsp"><button type="button" class="btn btn-primary">Add Course</button></a>
+  <button type="button" class="btn btn-primary">View details</button>
+   <button type="button" class="btn btn-primary"></button>
+</div>
+</body>
+</html>

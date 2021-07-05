@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="s1" class="com.bean.Student"><!-- Here getter setter are not used in Student and parameterized constructor is used. -->
+	<constructor-arg name="id" value="1"/>
+	<constructor-arg name="fname" value="Deep"/>
+	<constructor-arg name="lname" value="Patel"/>
+	<constructor-arg name="emails" value="DeepPatel"/>
+</bean>
+</beans>

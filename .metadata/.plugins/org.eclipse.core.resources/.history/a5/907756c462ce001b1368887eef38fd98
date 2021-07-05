@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <script>
+      function redirectFunc() {
+        window.location.assign("https://www.w3docs.com/");
+        setTimeout("redirectFunc()", 2000);
+        window.location.assign("https://www.w3docs.com/");
+      }
+      
+    </script>
+  </body>
+</html>

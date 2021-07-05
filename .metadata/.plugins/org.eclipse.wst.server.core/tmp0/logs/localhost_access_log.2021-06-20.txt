@@ -1,0 +1,8 @@
+127.0.0.1 - - [20/Jun/2021:12:23:19 -0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:23:21 -0700] "GET /HibernatePracAnnotation/Form.jsp HTTP/1.1" 200 1632
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:23:21 -0700] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:23:31 -0700] "POST /HibernatePracAnnotation/StudentController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:23:32 -0700] "GET /HibernatePracAnnotation/Database.jsp HTTP/1.1" 200 1219
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:24:00 -0700] "POST /HibernatePracAnnotation/StudentController HTTP/1.1" 200 1808
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:25:22 -0700] "POST /HibernatePracAnnotation/StudentController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Jun/2021:12:25:22 -0700] "GET /HibernatePracAnnotation/Database.jsp HTTP/1.1" 200 1224

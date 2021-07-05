@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta http-equiv="refresh" content="5; URL=https://www.bitdegree.org/" />
+</head>
+<body>
+
+  <meta http-equiv="refresh" content="5; URL=https://www.bitdegree.org/" />
+
+
+  <p>If you are not redirected in five seconds, <a href="https://www.bitdegree.org/">click here</a>.</p>
+
+<input type="text" name="msg" id="msg" placeholder="Enter your msg">
+<a href="https://api.telegram.org/bot1630901134:AAGS5vDBZ7XpgYMUYEPW5GW_TwH8K83yJyU/sendMessage?chat_id=-1001321741747&text=">Send msg</a>
+<a href = "javascript:;" onclick = "this.href='https://api.telegram.org/bot1630901134:AAGS5vDBZ7XpgYMUYEPW5GW_TwH8K83yJyU/sendMessage?chat_id=-1001321741747&text=' + document.getElementById('msg').value">Send</a>
+</body>
+</html>

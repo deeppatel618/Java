@@ -1,0 +1,29 @@
+package com.main;
+//// To understand dependency relate this program
+//class Address
+//{
+//	public Address()
+//	{
+//		System.out.println("Address's controller");
+//	}
+//}
+//class Employee
+//{
+//	Address address;
+//	public Employee(Address address)
+//	{
+//		System.out.println("EMployee's constructor");
+//		this.address=address;
+//	}
+//	public Employee()
+//	{
+//		System.out.println("EMployee's constructor");
+//		
+//	}
+//}
+//public class MainClass {
+//	public static void main(String[] args)
+//	{
+//		new Employee();
+//	}
+//}

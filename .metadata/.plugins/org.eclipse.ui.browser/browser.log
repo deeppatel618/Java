@@ -1,0 +1,33 @@
+
+May 25, 2021 16:18:23.87 NEW SESSION
+May 25, 2021 16:18:23.87 [6336:1248:0525/161823.872:ERROR:device_event_log_impl.cc(214)] [16:18:23.873] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+May 25, 2021 17:23:51.76 [6336:1248:0525/172351.763:ERROR:device_event_log_impl.cc(214)] [17:23:51.764] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:26:23.74 [6336:1248:0525/172623.747:ERROR:device_event_log_impl.cc(214)] [17:26:23.748] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:26:41.80 [6336:1248:0525/172641.802:ERROR:device_event_log_impl.cc(214)] [17:26:41.802] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:27:30.59 [6336:1248:0525/172730.597:ERROR:device_event_log_impl.cc(214)] [17:27:30.597] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:33:27.80 [6336:1248:0525/173327.804:ERROR:device_event_log_impl.cc(214)] [17:33:27.804] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:33:51.92 [6336:1248:0525/173351.923:ERROR:device_event_log_impl.cc(214)] [17:33:51.923] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:34:10.91 [6336:1248:0525/173410.910:ERROR:device_event_log_impl.cc(214)] [17:34:10.909] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:34:35.46 [6336:1248:0525/173435.468:ERROR:device_event_log_impl.cc(214)] [17:34:35.467] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:35:31.44 [6336:1248:0525/173531.442:ERROR:device_event_log_impl.cc(214)] [17:35:31.442] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:36:43.63 [6336:1248:0525/173643.639:ERROR:device_event_log_impl.cc(214)] [17:36:43.639] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:37:43.81 [6336:1248:0525/173743.814:ERROR:device_event_log_impl.cc(214)] [17:37:43.814] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+May 25, 2021 17:37:51.13 [6336:1248:0525/173751.131:ERROR:device_event_log_impl.cc(214)] [17:37:51.131] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+
+Jun 01, 2021 13:41:11.04 NEW SESSION
+Jun 01, 2021 13:41:11.04 [8532:11708:0601/134111.040:ERROR:device_event_log_impl.cc(214)] [13:41:11.040] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Jun 01, 2021 13:41:31.81 [6468:6612:0601/134131.812:ERROR:device_event_log_impl.cc(214)] [13:41:31.811] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Jun 24, 2021 10:42:46.65 NEW SESSION
+Jun 24, 2021 10:42:46.65 [12184:7708:0624/104246.654:ERROR:device_event_log_impl.cc(214)] [10:42:46.654] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Jun 24, 2021 10:44:34.83 [10544:11304:0624/104434.835:ERROR:device_event_log_impl.cc(214)] [10:44:34.834] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Jun 24, 2021 16:04:28.02 NEW SESSION
+Jun 24, 2021 16:04:28.02 [10744:10748:0624/160428.028:ERROR:device_event_log_impl.cc(214)] [16:04:28.028] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Jun 24, 2021 17:35:03.08 [10744:10748:0624/173503.083:ERROR:device_event_log_impl.cc(214)] [17:35:03.083] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+
+Jun 27, 2021 22:13:18.89 NEW SESSION
+Jun 27, 2021 22:13:18.89 [5164:7008:0627/221318.891:ERROR:device_event_log_impl.cc(214)] [22:13:18.892] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Jun 28, 2021 20:50:13.14 NEW SESSION
+Jun 28, 2021 20:50:13.14 [9464:9468:0628/205013.147:ERROR:device_event_log_impl.cc(214)] [20:50:13.147] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.

@@ -1,0 +1,15 @@
+-->SessionFactory-Session object is created based upon SessionFactory object i.e. factory. It opens the Connection/Session with Database software through Hibernate Framework
+-->Session Object is used for CRUD operation.
+
+--->Configuration is a class which is present in org.hibernate.cfg package. It activates Hibernate framework. It reads both configuration file and mapping files.
+It activate Hibernate Framework
+Configuration cfg=new Configuration();
+It read both cfg file and mapping files
+cfg.configure();
+It checks whether the config file is syntactically correct or not.
+If the config file is not valid then it will throw an exception. If it is valid then it creates a meta-data in memory and returns the meta-data to object to represent the config file.
+
+
+Tight coupled Code--In Tightly coupled code, classes and objects are dependent on one another. ... When we have a tightly coupled object, it becomes an object that needs to know quite a bit about other objects and thus are usually highly dependent on each other's interfaces.
+
+AOP-aspect oriented programming.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="s1" class="com.bean.Student" init-method="init" destroy-method="destroy"><!-- destory method will not called if we use application ApplicationContext(Interface) .It does not have destroy method instead you can use AbstractApllicationContext class  -->
+	<property name="id" value="1"/>
+	<property name="fname" value="Deep"/>
+	<property name="lname" value="patel"/>
+	<property name="email" value="deeppatel@gmail.com"/>
+</bean>
+</beans>
+<!--we can use property tag only when class mention in bean has getter setter..This property can be accessed through getter setter only  -->

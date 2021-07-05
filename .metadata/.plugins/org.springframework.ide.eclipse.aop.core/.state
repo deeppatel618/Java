@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringScope"/>
+<aop-project name="Spring_2"/>
+<aop-project name="DiByConstructor"/>
+<aop-project name="DiByObject"/>
+<aop-project name="Spring"/>
+</aop-reference-model>

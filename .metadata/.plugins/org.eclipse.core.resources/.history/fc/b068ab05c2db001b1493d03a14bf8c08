@@ -1,0 +1,19 @@
+package com.main;
+class Address
+{
+	public Address()
+	{
+		System.out.println("Address's controller");
+	}
+}
+class Employee
+{
+	public Employee()
+	{
+		System.out.println("EMployee's constructor");
+		Address a=new Address();
+	}
+}
+public class MainClass {
+
+}

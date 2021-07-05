@@ -1,0 +1,80 @@
+<%@page import="com.bean.Emp"%>
+<%@page import="com.dao.EmpDao"%>
+<%@page import="com.bean.Dept"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		Emp e = (Emp) request.getAttribute("e");
+	%>
+	<form name="emp" method="post" action="EmpController">
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="fname" value="<%=e.getFname()%>"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lname" value="<%=e.getLname()%>"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="text" name="email" value="<%=e.getEmail()%>"></td>
+			</tr>
+			<tr>
+				<td>Current Department</td>
+				<td><input type="text" name="email"
+					value="<%=e.getDept().getDname()%>" readonly="readonly"></td>
+				</td>
+			</tr>
+			<tr>
+				<input type="button" name="Dept" value="Ava Dept" onclick="ShowDept();">
+			</tr>
+			<tr id="deptAvailable" >
+				<td>Department</td>
+				<td><select name="dept">
+						<option>---Select Department---</option>
+						<%
+							List<Dept> list = EmpDao.getAllDept();
+							for (Dept d : list) {
+						%>
+						<option value="<%=d.getDid()%>"><%=d.getDname()%> -
+							<%=d.getLocation()%></option>
+						<%
+							}
+						%>
+				</select></td>
+			</tr>
+
+
+			<tr>
+				<td>Location</td>
+				<td><input type="text" name="email"
+					value="<%=e.getDept().getLocation()%>" readonly="readonly"></td>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"></td>
+			</tr>
+		</table>
+
+		<input type="hidden" name="eid" value="<%=e.getEid()%>"> <input
+			type="hidden" name="dept" value="<%=e.getDept().getDid()%>">
+		<input type="submit" name="action" value="Update Emp">
+	</form>
+
+	<script>
+		function ShowDept() {
+			alert("pressed");
+			
+		}
+	</script>
+</body>
+</html>
